@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./Img/devchallenges.png" type="image/x-icon" />
+    <title>Interior Consultant</title>
+  </head>
+  <body class="font-montserrat bg-body text-white">
+    <header>
+      <nav>
+        <div class="flex justify-between mt-8 w-11/12 mx-auto">
+          <div>
+            <h1
+              class="uppercase flex justify-center items-center font-crimsonPro p-2 text-xl gradient-border"
+            >
+              <a href="#">this interior</a>
+            </h1>
+          </div>
+
+          <div class="cursor-pointer md:hidden" id="menu-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-10 bonces"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+
+          <div class="hidden md:block">
+            <ul
+              class="text-slate-400 fomt-bold flex space-x-20 parent items-center h-full"
+            >
+              <li>
+                <a href="#" class="hover:text-white">Home</a>
+              </li>
+              <li><a href="#" class="hover:text-white">Collection</a></li>
+              <li><a href="#" class="hover:text-white">About</a></li>
+              <li><a href="#" class="hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- mobile -->
+        <div class="md:hidden">
+          <ul
+            class="text-center text-base font-bold space-y-4 text-slate-400 mt-9 parent hidden"
+          >
+            <li>
+              <a href="#" class="hover:text-white">Home</a>
+            </li>
+            <li><a href="#" class="hover:text-white">About</a></li>
+            <li><a href="#" class="hover:text-white">Contact</a></li>
+            <li><a href="#" class="hover:text-white">Collection</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mt-16 w-11/12 mx-auto">
+      <div class="grid gap-12 md:gap-8 md:grid-cols-3">
+        <div class="md:col-span-1">
+          <h2 class="font-loro text-3xl tracking-wider">Modern Interior</h2>
+          <p class="mt-6 tracking-wider leading-normal md:max-w-[15rem]">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing &
+            <!-- <br
+              class="hidden md:inline"
+            /> -->
+            eco-services.
+          </p>
+          <a href="#" class="mt-7 flex items-center font-bold text-xl"
+            >Read more<span class="material-icons icon ml-1 mt-1"
+              >trending_flat</span
+            ></a
+          >
+        </div>
+
+        <div class="md:col-span-2 flex justify-end">
+          <div class="relative">
+            <img src="./Img/photo1.png" alt="interior design" class="h-96" />
+            <div
+              class="w-5/6 md:w-8/12 absolute right-9 -bottom-32 bg-black pt-4 pl-6"
+            >
+              <div class="flex">
+                <div>
+                  <img
+                    src="./Img/photo2.png"
+                    alt="designer"
+                    class="w-11 rounded-full"
+                  />
+                </div>
+
+                <div class="ml-5">
+                  <p class="text-base">Aliza Webber</p>
+                  <p class="text-xs mt-1 text-gray-400">Interior designer</p>
+                </div>
+              </div>
+
+              <div class="text-xl font-loro mt-5 mb-12">
+                <h3 class="leading-relaxed">
+                  Designed in 2020 by <br />
+                  Aliza Webber
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-44 mb-14">
+      <div class="text-center text-gray-400">
+        <a
+          href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb"
+          target="_blank"
+          class="dev-challenges-profile visited:text-red-300 hover:text-white active:text-green-600"
+          >Anish Chhetri - DevChallenges.io</a
+        >
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
