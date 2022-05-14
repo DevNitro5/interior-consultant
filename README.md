@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://interior-design-project-2022.netlify.app/">
+    <a href="https://devnitro5.github.io/interior-consultant/">
       Demo
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ![screenshot](./preview.png)
 
-- View the [live demo](https://interior-design-project-2022.netlify.app/)
+- View the [live demo](https://devnitro5.github.io/interior-consultant/)
 - 3rd Dev Challenges project
 - Mobile first
 
